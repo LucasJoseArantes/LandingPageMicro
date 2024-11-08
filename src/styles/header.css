@@ -1,0 +1,28 @@
+header{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+header div{
+    border: 2px solid red;
+    margin: auto;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    max-height: 150px;
+}
+
+header img {
+    padding: 20px;
+    margin: 20px;
+    width: 350px
+}
+
+header img:hover {
+    cursor: pointer;
+    scale: 0.95;
+    transition: 0.5s;
+}
+

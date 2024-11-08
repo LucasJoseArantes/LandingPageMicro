@@ -1,0 +1,115 @@
+@media (max-width: 768px) {
+
+    .mainTitle b{
+        animation: colorChange 5s infinite; /* Duração de 5 segundos, looping infinito */
+
+    }
+
+    .mainTitle h1{
+        font-size: 3rem!important;
+        width: 100% !important;
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .sectionOne p{
+        width: 100% !important;
+        font-size: 1rem!important;
+        text-align: center;
+    }
+
+    .image-effect {
+        position: absolute;
+    }
+
+    .lamp-image, .sound-image{
+        width: 0px!important;
+        left: 0 !important;
+    }
+
+    
+}
+
+.imageOne{
+    background-image:  linear-gradient(rgba(0, 17, 255, 0.058), rgba(0, 0, 0, 0.595)), url('../assets/images/sectionOne/section1bdgEXTENDED.png');
+}
+
+.sectionOne{
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left
+    
+}
+
+.image-effect {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.5s ease; 
+}
+
+
+.mainTitle {
+    align-self: center;
+    justify-self: center;
+    margin: auto;
+    margin-top: 130px;
+    height: 400px;
+}
+
+.mainTitle h1 {
+    font-size: 3em;;
+    width: 1052px;
+    font-weight: 350;
+}
+
+.sectionOne h2 {
+    font-size: 18px;
+    color: #d32f2f; /* cor vermelha similar à do print */
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .sectionOne p {
+    font-size: 14px;
+    color: #555;
+    text-align: center;
+    line-height: 1.6;
+  }
+
+  .pointsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+
+  }
+  
+  .sectionOne div div {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sectionOne div div img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .sectionOne div {
+      flex-direction: column;
+    }
+  
+    .sectionOne div div {
+      margin-bottom: 20px;
+    }
+  }

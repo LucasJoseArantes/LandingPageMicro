@@ -1,0 +1,134 @@
+@media (max-width: 768px) {
+    .sectionCustomer{ 
+       font-size: 1rem ;
+    }
+    
+    .testimonial-text {
+        font-size: 0.5rem ;
+    }
+
+
+    .mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+    display: none;
+}
+}
+
+.imageCostumer {
+    background-image:linear-gradient(rgba(0, 238, 255, 0.079), rgba(0, 0, 0, 0.704)), url('../assets/images/sectionCostumer/costumerBgd.png');
+    background-size: cover;
+    background-position: center;
+
+}
+
+.sectionCustomer {
+    max-width: 1200px;
+}
+
+
+.mySwiper {
+    max-width: 950px;
+    margin: 60px auto;
+
+}
+
+.testimonial-card {
+    background: linear-gradient(to top, #252525 18%, white 18%);
+    height: 350px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Ajuste conforme necessário */
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative; /* Necessário para o posicionamento absoluto do logo */
+}
+
+.testimonial-text {
+    font-weight: 500;
+    display: flex;
+    height: 250px;
+    font-size: 16px;
+    text-align: left;
+    margin: 20px auto;
+    padding: 0px 20px;
+    font-style: italic;
+    color: #000000;
+    flex-grow: 1; /* Faz o texto crescer para ocupar o espaço disponível */
+}
+
+.testimonial-footer {
+    background: #252525; /* Fundo cinza escuro */
+    border-radius: 8px;
+    padding: 15px;
+    position: relative;
+    overflow: visible; /* Permite que o conteúdo saia do container */
+    padding: 40px 0px; /* Ajustado para garantir que a imagem não sobreponha o testemunho */
+    height: 10px;
+}
+
+.testimonial-logo {
+    width: 80px; /* Ajuste conforme necessário */
+    height: 80px; /* Ajuste conforme necessário */
+    object-fit: contain;
+    position: absolute;
+    top: -40px; /* Posiciona a metade da imagem fora do container */
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%; /* Opcional: Torna a imagem circular */
+}
+
+.testimonial-name {
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff; /* Cor do texto branco */
+    margin: 0; /* Remover margens adicionais */
+}
+
+.testimonial-position {
+    font-size: 14px;
+    color: #ddd; /* Cor do texto mais claro */
+    margin: 0;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #000 !important;
+    
+}
+
+button {
+    margin-top: 30px;
+    padding: 12px 25px;
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+
+.mySwiper .swiper-button-next {
+    right: 0px; /* Aumenta a distância da borda direita */
+}
+
+.mySwiper .swiper-button-prev {
+    left: 0px; /* Aumenta a distância da borda esquerda */
+}
+
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+    color: #000000; /* Cor das setas */
+    width: fit-content;
+    z-index: 10; /* Garante que as setas fiquem acima de outros elementos */
+}

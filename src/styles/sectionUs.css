@@ -1,0 +1,112 @@
+@media (max-width: 768px) {
+  .usMainContainer {
+    width: 350px;
+    height: 90%;
+  }
+
+  .containerUs h4 {
+    font-size: 1rem !important;
+  }
+
+  .containerUs p {
+    font-size: 0.7rem !important;
+    width: 250px;
+  }
+
+  .picturesContainer {
+    display: flex !important;
+    flex-direction: column;
+  }  
+
+    .bottomImages {
+      display: flex;
+      flex-direction: column;
+    }
+    
+
+    .mainImage, .bottomImages, .sideImages {
+      margin-left: 100px !important;
+      margin: auto;
+      width: 80px !important;
+    }
+
+
+  .picturesContainer img {
+    width: 80px !important;
+    margin: auto;
+  }
+
+
+}
+
+.usMainContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+}
+
+
+.containerUs {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+.containerUs h2 {
+  font-size: 4rem;
+}
+
+.containerUs h4 {
+  font-size: 1.8rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.containerUs p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.picturesContainer {
+  display: grid;
+  grid-template-areas:
+    "mainImage sideImages"
+    "bottomImages bottomImages";
+  gap: 10px;
+  margin: auto;
+  max-width: 400px;
+}
+
+
+.mainImage {
+  grid-area: mainImage;
+  width: 310px;
+}
+
+
+.sideImages {
+  grid-area: sideImages;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 150px;
+}
+
+.bottomImages {
+  grid-area: bottomImages;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 150px;
+}
+
+.picturesContainer img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
