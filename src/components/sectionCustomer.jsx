@@ -6,7 +6,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import Button from "./button";
 import { Navigation, Autoplay } from "swiper/modules"; // Adicione o módulo Autoplay
 import tesimonaljson from "../jsons/testimonials.json";
 
@@ -82,7 +81,6 @@ const Customer = () => {
           ))}
         </Swiper>
       </div>
-      <Button text="Estou Interessado" nextSection=".faqSection" />
     </section>
   );
 };

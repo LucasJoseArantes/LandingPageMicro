@@ -14,20 +14,22 @@
 }
 }
 
-.imageCostumer {
-    background-image:linear-gradient(rgba(0, 238, 255, 0.079), rgba(0, 0, 0, 0.704)), url('../assets/images/sectionCostumer/costumerBgd.png');
-    background-size: cover;
-    background-position: center;
-
-}
 
 .sectionCustomer {
+    margin: 0 auto;
+    padding: 2rem 0;
     max-width: 1200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
 }
 
-
 .mySwiper {
-    max-width: 950px;
+    width: 950px;
+    border: 2px solid green;
     margin: 60px auto;
 
 }

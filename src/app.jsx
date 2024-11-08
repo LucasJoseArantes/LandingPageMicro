@@ -3,6 +3,8 @@ import './styles/app.css';
 import Footer from './components/footer';
 import Header from './components/header';
 import SectionOne from './components/sectionOne';
+import PointsBox from './components/pointsBox';
+import SectionCampaign from './components/sectionCampaign/sectionCampaign';
 import SectionFAQ from './components/sectionFAQ';
 import SectionContact from './components/sectionContact';
 import SectionCustomer from './components/sectionCustomer';
@@ -14,13 +16,10 @@ import ToTopBtn from './components/toTopBtn';
 function App() {
     return (
         <div className='mainContainer'>
-            <div className='image-container imageOne'>
                 <Header />
                 <SectionOne />    
-            </div>
-            <div className='image-container imageAudio'>
-            </div>
-                <SectionUs />
+                <PointsBox />
+                <SectionCampaign />
             <div className='image-container imageCostumer'>
                 <SectionCustomer />
             </div>

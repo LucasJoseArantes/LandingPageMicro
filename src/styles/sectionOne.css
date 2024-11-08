@@ -30,40 +30,26 @@
     
 }
 
-.imageOne{
-    background-image:  linear-gradient(rgba(0, 17, 255, 0.058), rgba(0, 0, 0, 0.595)), url('../assets/images/sectionOne/section1bdgEXTENDED.png');
-}
 
 .sectionOne{
-    max-width: 1200px;
+  background-image: url('https://picsum.photos/300/300/?blur=5');
+  background-size: cover;
+  background-position: center;
+    max-width: 1300px;
+    height: 75vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left
-    
-}
+    text-align: left;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
 
-.image-effect {
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    transition: transform 0.5s ease; 
-}
-
-
-.mainTitle {
-    align-self: center;
-    justify-self: center;
-    margin: auto;
-    margin-top: 130px;
-    height: 400px;
-}
 
 .mainTitle h1 {
-    font-size: 3em;;
-    width: 1052px;
-    font-weight: 350;
+    font-size: 3em; 
+    padding: 10px;
 }
 
 .sectionOne h2 {
@@ -72,44 +58,4 @@
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
-  }
-  
-  .sectionOne p {
-    font-size: 14px;
-    color: #555;
-    text-align: center;
-    line-height: 1.6;
-  }
-
-  .pointsContainer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-
-  }
-  
-  .sectionOne div div {
-    flex: 1;
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    margin: 2px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .sectionOne div div img {
-    width: 40px;
-    height: 40px;
-    margin-bottom: 10px;
-  }
-  
-  @media (max-width: 768px) {
-    .sectionOne div {
-      flex-direction: column;
-    }
-  
-    .sectionOne div div {
-      margin-bottom: 20px;
-    }
   }

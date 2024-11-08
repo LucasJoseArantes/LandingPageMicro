@@ -1,11 +1,8 @@
 header{
     background-color: black;
-    position: absolute;
-    top: 0;
     width: 100%;
 }
 header div{
-    border: 2px solid red;
     margin: auto;
     max-width: 1400px;
     display: flex;
